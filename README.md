@@ -8,8 +8,8 @@ This project is a mini-website developed using the HTML, CSS and Java Scrip prog
 
 
 ### Technologies
-✅ HTML and CSS - Internal and external styling for structured design; 
-✅ JavaScript - Form validation and interactive elements; 
+- HTML and CSS - Internal and external styling for structured design; 
+- JavaScript - Form validation and interactive elements; 
 
 ### Key Features:
 ✅ Form validation - to ensure correct user input;
