@@ -12,11 +12,11 @@ This project is a mini-website developed using the HTML, CSS and Java Scrip prog
 - JavaScript - Form validation and interactive elements; 
 
 ### Key Features:
-✅ Form validation - to ensure correct user input;
-✅ Text manipulation - for better readability;
-✅ Navigation buttons - for smooth user experience; 
-✅ Structured design - well-defined sections and columns;
-✅ Iframe media support - embedded video, location maps and images;
+- Form validation - to ensure correct user input;
+- Text manipulation - for better readability;
+- Navigation buttons - for smooth user experience; 
+- Structured design - well-defined sections and columns;
+- Iframe media support - embedded video, location maps and images;
 
 
 #### License
