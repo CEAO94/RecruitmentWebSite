@@ -1,0 +1,142 @@
+body { /* Background image set up - sets the background for the entire page */
+    background-image: url(homebk3.jpg); /* Loads IMG from file */
+    background-repeat: no-repeat; /* Prevents IMG from repeating */
+    background-size: cover; /* Cover the entire page with the IMG */ 
+}
+
+/* STYLE CSS ABOUT TAB*/
+
+/* Set display for HEAD and elements content, special spaces and margim */
+.head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 50px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Set up position and size for TITLE element inside head*/
+.head ul {
+    max-width: 1000px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+/* BOTTON SECTION */
+/* Set BOTTON aligment/position inside head*/
+.head li {
+    margin-left: 80px;
+}
+
+/* Set BOTTON STYLE -  inside head*/
+.head a {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 3px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    /* background-color: black; */
+}
+
+/* TITLE SECTION */
+.tittle { /* Position */
+    margin-top: 3%;
+    max-width: 100%;
+}
+
+/* Title - style settings */
+/* Size; position; color */
+.tittle h1 {
+    font-size: 70px;
+    margin-bottom: 2%;
+    margin-left: 50px;
+    color: white;
+}
+
+/* Sub-title - style settings */
+.tittle h3 {
+    font-size: 25px;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    color: white;
+}
+
+/* TEXT below title - style settings */
+/* Size; position; color */
+.text p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    line-height: 1.8;
+    max-width: 80%;
+    text-align: justify;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    margin-left: 3%;
+}
+
+/* TEXT types - Values | Mission | Vision, */
+/* Size; position; color */
+.values {
+    max-width: 80%;
+    line-height: 1.5;
+    font-size: 30px;
+    text-align: justify;
+    color: whitesmoke;
+    margin-left: 3%;
+}
+
+.values h5 {
+    color: white;
+}
+
+.values p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.values h3 {
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+/* SUBMISSION SECTION */
+/* 
+/* Botton position;*/
+/* Botton style - size; corners; position; color */
+.submission a {
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: blue;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 6px;
+    margin: 3%;
+}
+
+/* FOOTER SECTION */
+/* 
+/* text position; size; margin display */
+.footer {
+    color: aliceblue;
+    float: left;
+    size: 12px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+/* FOOTER text color*/
+.footer a {
+    color: aliceblue;
+}
+
+
+

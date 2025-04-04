@@ -1,0 +1,172 @@
+<!-- Document type -->
+<!DOCTYPE html>
+
+<!-- Document starts -->
+<html lang="en">
+
+<!-- HEAD section -->
+
+<head>
+    <!-- Defines character encoding -->
+    <meta charset="UTF-8"> <!-- Supports special characters -->
+
+    <!-- Make responsive in different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Browser tab page title -->
+    <title>True Group</title>
+
+    <!-- Using INTERNAL CSS with STYLE -->
+    <!-- Use to style an HTML document -->
+    <!-- Describes how HTML elements should be displayed -->
+    <!-- use to style an HTML document -->
+    <style>
+        /* Background image set up - sets the background for the entire page */
+        body {
+            background-image: url(homebk3.jpg); /* Loads IMG from file */
+            background-repeat: no-repeat; /* Prevents IMG from repeating */
+            background-size:cover; /* Keeps the original size */ 
+        }
+        
+        /* Create space around HEAD and elements content */
+        .head { 
+            padding: 2%; /* Creat the space inside the element */
+            margin-left: 20px; /* Moves the element to right, from left */
+        }
+
+        /*Class dedicated for HEAD elements*/        
+        .head ul {
+            display: flex; /* Makes the LIST items appear in vertical/row */
+            max-width: 100px; /* Restrict the max width */
+            text-align: left; /* Align text to the left */ 
+            align-items: flex-end; /* Aligns item to the bottom */
+            padding: 1px; /* Creat the space inside the element */
+            margin-left: 20px; /* Moves the element to right, from left */
+            color: white; /* text color - light white */
+            font-size: 16px; /* Set up the font size */
+        }
+
+        nav {
+            display: flex; /* Makes the LIST items appear in vertical/row */
+            padding: 20px 0; /* Creat the space inside the element */
+            font-size: 20px; /* Set up the font size */
+            font-weight: lighter; /* Set up the font weight (normal, lighter, bold..) */
+            max-width: 300px; /* Restrict the max width */
+        }
+
+        .navigation {
+            float: left; /* Positions elemen to the left, allowing a row*/
+            margin-left: 30px; /* Moves the element to right, from left */
+            padding: 1%; /* Creat the space inside the element */
+        }
+
+
+        .navigation a {
+            font-size: 20px; /* Set up the font size */
+            font-weight: lighter;
+            color: white; /* text color - light white */
+            background: blue; /* text color - blue */
+            padding: 3px 30px; /* Creat the space inside the element */
+            border-radius: 10px; /* Creat a round button corners */
+            margin-right: 25px; /* Moves the element to left, from right */
+            text-decoration: none; /* Removes underline */
+
+
+        }
+
+        .tittle h1 {
+            margin-top: 200px; /* Moves the element down, from bottom */
+            max-width: 800px; /* Restrict the max width */
+            font-size: 80px; /* Set up the font size */
+            margin-left: 50px; /* Moves the element to right, from left */
+            color: aliceblue; /* text color - light white */
+        }
+
+        .text p {
+            line-height: 1.5; /* Increase space between lines */
+            font-size: 30px; /* Set up the font size */
+            max-width: 1100px; /* Restrict the max width */
+            margin-bottom: 20px; /* Add space below the paragraph */
+            color: aliceblue; /* text color - light white */
+            margin-left: 50px; /* Moves the element to right, from left */
+            text-align: justify; /* Text aligment */
+        }
+
+        .submission a {
+            display: inline-block; /* Makes the submission behave like a block, in line*/
+            text-decoration: none; /* Removes underline */
+            color: white; /* text color - light white */
+            background-color: blue; /* text color - blue */
+            padding: 10px 30px; /* Add the border / background space around the bottom */ 
+            font-size: 18px; /* Set up the font size */
+            margin-top: 50px; /* Add space above */
+            border-radius: 6px; /*Add round button corners*/
+            margin-left: 50px;  /* Moves the element to right, from left */
+        }
+
+        .footer {
+            color: aliceblue; /* text color - light white */
+            float: left; /* Position footer to the left */
+            size: 12px; /* Set up the font size */
+            margin: 3%; /* Add space around all sides */
+        }
+
+        .footer a {
+            color: aliceblue; /* text color - light white */
+        }
+    </style>
+
+
+<!-- Standard markup language for Web pages -->
+</head>
+
+<!-- Body content set up -->
+<body>
+
+    <!-- HEAD body secction -->
+    <div class="head">
+        <nav>
+            <img src="logo2.png" height="100px"> <!-- IMG logo -->
+            <ul>Building Careers Connections.</ul>
+        </nav>
+    </div>
+
+    <!-- NAVIGATION BAR secction -->
+    <div class="navigation">
+        <table>
+            <tr> <!-- CREATE THE NAVIGATION BOTTONS and link pages -->
+            <!-- NAVIGATION BUTTONS and links -->
+                <td> <a href="home.html"> Home </a></td>
+                <td> <a href="about.html"> About </a></td>
+                <td> <a href="services.html"> Services </a></td>
+                <td> <a href="contact.html"> Contact </a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- TITLE Element and secction -->    
+    <div class="tittle">
+        <h1> LEADING CAREERS DEVELOPMENT! </h1>
+    </div>
+    <div class="text"> <!-- Text bellow titlle -->
+        <p>Founded in 2025, <strong> True Group </strong> helps people build powerful work connections. We combine
+            personalized support and advanced technology to connect you with the best job opportunities. Click to learn
+            more! </p>
+    </div>
+
+    <!-- Last BUTTON - connection to "About" tab -->
+    <div class="submission">
+        <a href="about.html">About us</a>
+    </div>
+
+    <!-- Footer element - Copyright page -->
+    <div class="footer">
+        <footer>
+            <!-- Text and link for Copyright webpage -->
+            <p> <a href="cright.html">Copyright (c)</a> 2025 by Carlos de Oliveira</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

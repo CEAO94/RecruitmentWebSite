@@ -1,0 +1,127 @@
+<!-- Document type -->
+<!DOCTYPE html>
+
+<!-- Document starts -->
+<html lang="en">
+
+<!-- HEAD section -->
+
+<head>
+    <!-- Defines character encoding -->
+    <meta charset="UTF-8"> <!-- Supports special characters -->
+
+    <!-- Make responsive in different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Browser tab page title -->
+    <title>Contact Us</title>
+
+    <!-- Link/connection HTML with CSS External file - for layout --> 
+    <link rel="stylesheet" href="contact.css">
+    <script defer src="contact.js"></script>
+</head>
+
+<!-- Body Section -->
+<body>
+
+    <!-- Head section - logo and Title -->
+    <div class="head">
+        <div class="logo">
+            <img src="logo2.png" height="100px"> <!-- IMG logo -->
+            <ul>Building Careers Connections.</ul>
+        </div>
+        
+        <!-- NAVIGATION BAR -->
+        <nav>
+            <ul> <!-- CREATE THE NAVIGATION BOTTONS and link pages -->
+                 <!-- NAVIGATION BUTTONS and links -->
+                <li> <a href="home.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="services.html">Services</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </nav>
+    <br>
+
+    <!-- TITLE Element and text secction -->
+    <div class="contact-tittle">
+        <h1> Take the next step! </h1>
+        <p> At <strong>True Services</strong>, an experienced team is ready to support you. Send us your message and
+            take the next step in your career: </p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form"> <!-- Form ID for Java Script connection -->
+        <form id="contactForm" onsubmit="return validateForm()">
+           
+            <!-- Name input and ID-->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <!-- Phone input and ID -->
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <!-- Email input and ID -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <!-- Message input and ID -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <!-- Check box for Terms and Conditions and GDPR ID -->
+            <div> 
+            <label for="gdpr">Agree to the Terms and Conditions:</label>    
+            <input type="checkbox" id="gdpr" name="gdpr">
+            </div>
+            
+            <div>
+            <!-- Link access to GDPR EU Official Website -->
+            <a href="https://gdpr-info.eu/"> Click to acess Terms and Conditions; </a>
+            </div>
+            
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- LOCATION - MAP section -->
+    <div class="map-container">
+        <div class="map">
+            <div class="map-frame">
+                <!-- Map shared from google maps with IFRAME -->
+                <iframe width="300" height="300"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4764.9696472109235!2d-6.251461123033085!3d53.33457697560369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670ebd6c21d9cb%3A0x7864772b9e1014a5!2sLinkedIn%20Ireland!5e0!3m2!1spt-BR!2sie!4v1742755584388!5m2!1spt-BR!2sie"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- ADDREES AND CONTACT INFORMATION -->
+        <div class="contact-info">
+            <ul>
+                <li> <strong>TRUE Group & Recruitment</strong> </li>
+                <li> 30 - 34 Westmoreland St., Dublin 2 </li>
+                <li> Eircode: D02 HK35 </li>
+                <li> Ireland </li>
+                <li> Tel: +353 1 3333444 </li>
+                <li> Email: info@true.ie </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer element - Copyright page -->
+    <div class="footer">
+        
+    <footer>
+        <!-- Text and link for Copyright webpage -->
+        <p><a href="cright.html">Copyright (c)</a> 2025 by Carlos de Oliveira</p>
+    </footer>
+    </div>
+
+</body>
+
+</html>
